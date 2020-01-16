@@ -5,7 +5,7 @@
 ## Software
 
 * [Preparations](preparations.md)
-* [Scraper](scraper.md)
+* [Scraper](software/scraper.md)
 
 ## External
 
