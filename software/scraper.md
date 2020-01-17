@@ -14,6 +14,7 @@ Install the Docker image
 
 ```text
 docker pull shiro-discord-bot/scraper
+mkdir ./themes
 ```
 
 {% hint style="info" %}

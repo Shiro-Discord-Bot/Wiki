@@ -57,3 +57,22 @@ db.createUser(
 quit()
 ```
 
+#### Providing credentials
+
+This file is placed in the root directory to provide credentials for each container
+
+{% code title="env.list" %}
+```bash
+# MongoDB
+MONGODB_CONNECTION=
+
+# Sentry
+SENTRY_DSN=
+
+# Reddit API
+REDDIT_CLIENT_ID=
+REDDIT_CLIENT_SECRET=
+REDDIT_USER_AGENT=
+```
+{% endcode %}
+

@@ -26,3 +26,5 @@ If you want to get involved, join our [Discord ](https://support.shiro.pro)and c
 
 We appreciate any of your help, you are always welcome!
 
+![](.gitbook/assets/wallpaper.png)
+
