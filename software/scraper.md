@@ -13,8 +13,9 @@ The subreddit [/r/AnimeThemes](https://www.reddit.com/r/AnimeThemes/) holds abou
 Install the Docker image
 
 ```text
-docker pull shiro-discord-bot/scraper
+docker pull shirodiscordbot/scraper
 mkdir ./themes
+docker run -d --name scraper --env-file env.list -v /themes:/app/themes shirodiscordbot/scraper
 ```
 
 {% hint style="info" %}
