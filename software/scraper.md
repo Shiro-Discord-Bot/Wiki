@@ -15,10 +15,12 @@ Install the Docker image
 ```text
 docker pull shirodiscordbot/scraper
 mkdir ./themes
-docker run -d --name scraper --env-file env.list -v /themes:/app/themes shirodiscordbot/scraper
+docker run -d --name scraper --env-file env.list --network="host" -v /themes:/app/themes shirodiscordbot/scraper
 ```
 
 {% hint style="info" %}
-Shiro's software is not optimized for self-hosting
+Shiro's software is not optimized for self-hosting, please use the official bot
 {% endhint %}
+
+
 

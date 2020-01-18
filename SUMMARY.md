@@ -5,6 +5,7 @@
 ## Software
 
 * [Preparations](software/preparations.md)
+* [Bot](software/bot.md)
 * [Scraper](software/scraper.md)
 
 ## External
