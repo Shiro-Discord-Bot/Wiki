@@ -25,11 +25,7 @@ More information [here](https://containrrr.github.io/watchtower/)
 
 ```bash
 docker pull containrrr/watchtower
-docker run -d \
-  --name watchtower \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  containrrr/watchtower \
-  --cleanup
+docker run -d --name watchtower --restart=always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --cleanup
 ```
 
 #### Hosting MongoDB
