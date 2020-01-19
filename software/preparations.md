@@ -57,7 +57,7 @@ quit()
 
 This file is placed in the root directory to provide credentials for each container
 
-{% code title="env.list" %}
+{% code title="/root/env.list" %}
 ```bash
 # MongoDB
 MONGODB_CONNECTION=
