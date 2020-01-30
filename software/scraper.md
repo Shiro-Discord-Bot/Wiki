@@ -17,7 +17,7 @@ Install the Docker image
 ```text
 docker pull shirodiscordbot/scraper
 mkdir /root/themes
-docker run -d --name scraper --restart=always --env-file /root/env.list --network="host" -v /root/themes/:/app/themes/ shirodiscordbot/scraper
+docker run -d --name scraper --restart=always --env-file /root/env.list --network="host" -v /root/themes/:/src/themes/ shirodiscordbot/scraper
 ```
 
 {% hint style="info" %}
