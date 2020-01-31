@@ -63,7 +63,8 @@ This file is placed in the root directory to provide credentials for each contai
 MONGODB_CONNECTION=
 
 # Sentry
-SENTRY_DSN=
+BOT_DSN=
+SCRAPER_DSN=
 
 # Reddit API
 REDDIT_CLIENT_ID=
