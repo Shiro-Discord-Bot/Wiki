@@ -17,6 +17,7 @@ curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
 add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
 apt-get update
 apt-get install docker-ce -y
+docker login docker.pkg.github.com -u GITHUB_USER -p GITHUB_TOKEN
 ```
 
 #### Keeping containers updated with Watchtower
@@ -63,8 +64,8 @@ This file is placed in the root directory to provide credentials for each contai
 MONGODB_CONNECTION=
 
 # Sentry
-BOT_DSN=
-SCRAPER_DSN=
+SENTRY_BOT_DSN=
+SENTRY_SCRAPER_DSN=
 
 # Reddit API
 REDDIT_CLIENT_ID=
@@ -72,7 +73,7 @@ REDDIT_CLIENT_SECRET=
 REDDIT_USER_AGENT=
 
 # Discord Bot
-BOT_TOKEN=
+DISCORD_BOT_TOKEN=
 ```
 {% endcode %}
 
