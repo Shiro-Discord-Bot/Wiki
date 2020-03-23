@@ -21,7 +21,7 @@ If you want to get involved, join our [Discord ](https://support.shiro.pro)and c
 * moderation of the Discord server
 * translation of the bot and website
 * designing of new avatars and icons
-* finding and fixing bots of our software
+* finding and fixing bugs in our software
 * donating a little amount of money
 
 We appreciate any of your help, you are always welcome!
